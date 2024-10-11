@@ -1,0 +1,7 @@
+C:\Users\gecsel\Gitwork\oraimunka\bin\Debug\oraimunka.exe.config
+C:\Users\gecsel\Gitwork\oraimunka\bin\Debug\oraimunka.exe
+C:\Users\gecsel\Gitwork\oraimunka\bin\Debug\oraimunka.pdb
+C:\Users\gecsel\Gitwork\oraimunka\obj\Debug\oraimunka.csproj.AssemblyReference.cache
+C:\Users\gecsel\Gitwork\oraimunka\obj\Debug\oraimunka.csproj.CoreCompileInputs.cache
+C:\Users\gecsel\Gitwork\oraimunka\obj\Debug\oraimunka.exe
+C:\Users\gecsel\Gitwork\oraimunka\obj\Debug\oraimunka.pdb
