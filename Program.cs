@@ -30,7 +30,7 @@ namespace oraimunka
            
         }
 
-        public static void Bank()
+        public static void Kamat()
         {
             Console.Write("Adja meg, hogy mennyi összeget szeretne berakni a bankba: ");
             int osszeg = Convert.ToInt32(Console.ReadLine());
@@ -42,17 +42,25 @@ namespace oraimunka
 
             double vegso_osszeg = osszeg * Math.Pow(1 + kamat / 100, ev);
 
-            Console.WriteLine($"A lekötött összeg {ev} év múlva: {vegso_osszeg:F2} forint.");
+            Console.WriteLine($"A berakott összeg {ev} év múlva: {vegso_osszeg} forint.");
+        }
 
+        public static void Futas()
+        {
+            Console.Write("Adja meg a futó kezdő sebességét m/s-ban (3.00-5.00 intervallumon belül): ");
+            string futo = Console.ReadLine();
+
+            
 
         }
 
         static void Main(string[] args)
         {
-            Udvozles();
+             //Udvozles();
             Console.WriteLine("");
-            Bank();
-            Console.WriteLine("");
+            Kamat();
+            // Console.WriteLine("");
+            Futas();
         }
     }
 }
